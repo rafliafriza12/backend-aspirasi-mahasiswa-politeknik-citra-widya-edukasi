@@ -1,0 +1,23 @@
+{
+  "name": "backend-aspirasi-mahasiswa-politeknik-citra-widya-edukasi",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rafliafriza12/backend-aspirasi-mahasiswa-politeknik-citra-widya-edukasi.git",
+  "author": "rafliafriza12 <rafliafriza90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
